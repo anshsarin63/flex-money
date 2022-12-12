@@ -35,8 +35,8 @@ const PaymentForm = () => {
     event.preventDefault();
 
     // Make a POST request to the REST API to process the payment
-    const PORT=process.env.PORT || 8000;
-    axios.post(`http://localhost:${PORT}/api/payment`, formData)
+    // const PORT=process.env.PORT || 8000;
+    axios.post('https://flexmoney-bn6n.onrender.com/api/payment', formData)
       .then(response => {
         // Display the payment response to the user
         if(!response.data.message){
