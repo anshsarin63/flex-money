@@ -3,4 +3,4 @@ The specifics of the data you must store will determine the ER diagram to be use
 
 The ER diagram for this database design would look something like this:
 
-<img src="./Image/ERImage.jpg" />
+[![ERdiagram.png](https://i.postimg.cc/zfg0nLgV/ERdiagram.png)](https://postimg.cc/TyTVx3Q6)
